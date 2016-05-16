@@ -10,7 +10,7 @@ The goal was to recreate an e-commerce site from two images (desktop and mobile 
 I separated html files, images, css files, and javascript files into folders that would logically represent them.  This makes it significantly easier to find a file you are looking for.
 
 # HTML:
-I used as many meaningful html tags as I could.  So the top portion using a '<header>' tag, the content of the page using an '<article>' tag, additional content using '<aside>' tag, and the bottom portion using a '<footer>' tag.  I continued this semantic approach by giving every '<div>' tag a meaningful id or class attribute.  The rest of the content I used the appropriate tag for it's representation. I included title and alt attributes on '<a>' and '<img>' tags to make the site more accessible to e-readers.
+I used as many meaningful html tags as I could.  So the top portion using a "<header>" tag, the content of the page using an '<article>' tag, additional content using '<aside>' tag, and the bottom portion using a '<footer>' tag.  I continued this semantic approach by giving every '<div>' tag a meaningful id or class attribute.  The rest of the content I used the appropriate tag for it's representation. I included title and alt attributes on '<a>' and '<img>' tags to make the site more accessible to e-readers.
 
 # CSS:
 I always separate css from the html using <link> tags in the '<head>' tag.  This keeps the both the html and css uncluttered. I ordered my styles in the same way that the html is ordered.  I also used comments to organize styles in bulk sections.  For instance, the html reads '<header>' then '<article>' then '<aside>' then '<footer>'. So the css is divided up by those tag names which makes it significantly easier to follow and read. 
