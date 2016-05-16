@@ -26,3 +26,6 @@ I use jQuery only because it makes traversing the DOM extremely easy.  I could h
 
 ###Desktop Image:
 ![Desktop Image](/metrimart-desktop.png)
+
+###Mobile Image:
+![Mobile Image](/metrimart-mobile.png)
