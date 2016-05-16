@@ -23,3 +23,6 @@ In order to make the site responsive I used percent based widths and media queri
 As with css, I always separate javascript from the html using `<script>` tags.  There were several small changes in content between the mobile and desktop versions. I used javascript to detect the screen width and change the html accordingly. Since, additional product images were given I used those to create a very simple slideshow.  I wanted to keep the site looking exactly like the provided screenshot so I opted for not including any thumbnails or extra icons.  It just cycles through the photos as they are clicked.
 
 I use jQuery only because it makes traversing the DOM extremely easy.  I could have used `.getElementByID()` or `.querySelectorAll()` but I really like jQuerys selector syntax: `$(selector)`.  There are also a ton of uses for jQuery that could become extremely useful later on if the project were to continue. (i.e. jQuery UI widgets)
+
+###Desktop Image:
+![Desktop Image](/metrimart-desktop.png)
