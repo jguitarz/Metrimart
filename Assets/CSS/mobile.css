@@ -1,0 +1,165 @@
+@media screen and (max-width: 1000px) {
+/*****BASIC STYLES*****/
+	h1 {
+		font-size: 1.1em;
+		padding: 15px 20px;
+	}
+
+	h2 {
+		font-size: 0.9em;
+	}
+
+/*****HEADER*****/
+	header {
+		background-color: #fff;
+		border-bottom: 1px solid #E2E2E2;
+	}
+
+	header img {
+		width: 35px;
+	}
+
+	#logo {
+		width: 15%;
+	}
+
+	#logo img {
+		content:url("../Images/icon-metrimart.svg");
+	}
+
+	#searchBar {
+		border-radius: 8px;
+		width: 70%;
+		text-align: center;
+	}
+
+	#account {
+		display: none;
+	}
+
+	#cart {
+		width: 10%;
+	}
+
+	#cart img {
+		content:url("../Images/icon-shopping-cart.svg");
+	}
+
+/*****ARTICLE*****/
+	#mainProduct {
+		padding: 0;
+	}
+
+	.product {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.product h1 {
+		text-align: left;
+	}
+
+	.product #price {
+		display: inline;
+		float: right;
+		color: #138FDC;
+	}
+
+	.details {
+		float: none;
+		width: 100%;
+	}
+
+	.details h1, .details h3 {
+		display: none;
+	}
+
+	.order {
+		padding: 15px 0;
+		border-top: 1px solid #E2E2E2;
+		text-align: center;
+	}
+
+	.order input {
+		height: 35px;
+		width: 35px;
+		margin: 0 1%;
+	}
+
+	.order button {
+		display: inline;
+		width: 58%;
+	}
+
+	.description {
+		padding: 0 20px;
+	}
+
+	.description .showMore {
+		display: block;
+		color: #138FDC;
+		padding: 15px 0 0 0;
+	}
+
+	.description .showMore:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	.description .moreInfo {
+		display: none;
+	}
+
+/*****ASIDE*****/
+	.otherProduct {
+		width: 46%;
+		margin: 2%;
+		padding: 10px;
+	}
+
+	.otherProduct img {
+		width: 100%;
+	}
+
+	.productInfo {
+		font-size: 0.7em;
+		height: 60px;
+	}
+
+	.openProduct {
+		display: none;
+	}
+
+/*****FOOTER*****/
+	footer {
+		text-align: center;
+		height: inherit;
+	}
+
+	#mainIcon {
+		display: block;
+	}
+
+	footer img {
+		float: none;
+	}
+
+	footer .desktop {
+		display: none;
+	}
+
+	footer .mobile {
+		display: inline-block;
+		text-align: center;
+	}
+
+	footer a, footer p {
+		color: #138FDC;
+		text-decoration: none;
+	}
+
+	footer p span {
+		color: #444;
+	}
+}
